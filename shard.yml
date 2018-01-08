@@ -1,0 +1,18 @@
+name: iris
+version: 0.1.0
+
+authors:
+  - mjago <martyn.jago@btinternet.com>
+
+targets:
+  iris:
+    main: iris.cr
+
+crystal: 0.24.1+27
+
+dependencies:
+  shainet:
+    github: mjago/shainet
+    branch: master
+
+license: MIT
